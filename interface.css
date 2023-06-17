@@ -1,6 +1,8 @@
 body {
-    background-image: url("websitebackground.png");
-    background-size: contain;
+    background-image: url("/images/background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
   }
   .name {
@@ -52,15 +54,23 @@ body {
   .p1 {
     width: 700px;
     font-size: 70px;
+   position: relative;
+   left: 40%;
   }
   .p2 {
     width: 150px;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     color: white;
+    position: fixed;
+    left: 50%;
     font-size: larger;
   }
   .refresh-button {
     background-color: black;
+    position: fixed;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
     padding-left: 20px;
     padding-right: 20px;
