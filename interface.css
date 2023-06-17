@@ -1,0 +1,172 @@
+body {
+    background-image: url("websitebackground.png");
+    background-size: contain;
+    color: white;
+  }
+  .name {
+    font-family: Montserrat, sans-serif;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    color: white;
+    padding-top: 10px;
+    background-color: rgba(70, 70, 70, 0.788);
+    background-size: cover;
+    vertical-align: top;
+  }
+  .home {
+    padding-left: 800px;
+    color: aqua;
+    font-size: 20px;
+  }
+  .home:hover {
+    cursor: pointer;
+    color: rgb(255, 0, 212);
+  }
+  .contact {
+    padding-left: 50px;
+    color: aqua;
+    font-size: 20px;
+  }
+  .email {
+    padding-left: 50px;
+    color: aqua;
+    font-size: 20px;
+  }
+  .email:hover {
+    cursor: pointer;
+    color: rgb(255, 0, 212);
+  }
+  .contact:hover {
+    cursor: pointer;
+    color: rgb(255, 0, 212);
+  }
+  .projects {
+    padding-left: 50px;
+    color: aqua;
+    font-size: 20px;
+  }
+  .projects:hover {
+    cursor: pointer;
+    color: rgb(255, 0, 212);
+  }
+  .p1 {
+    width: 700px;
+    font-size: 70px;
+  }
+  .p2 {
+    width: 150px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: white;
+    font-size: larger;
+  }
+  .refresh-button {
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 20px;
+    border-color: white;
+    font-weight: bold;
+    font-family: arial;
+    width: 120px;
+    vertical-align: top;
+    vertical-align: left;
+    margin-right: 150px;
+  }
+  .refresh-button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  .refresh-button:active {
+    background-color: red;
+  }
+
+  #header {
+    background: #444;
+    color: #bbb;
+    cursor: default;
+    height: 3.25em;
+    left: 0;
+    line-height: 3.25em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+}
+
+    #header h1 {
+        color: inherit;
+        height: inherit;
+        left: 1.25em;
+        line-height: inherit;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 0;
+    }
+
+        #header h1 a {
+            color: #fff;
+            font-weight: 400;
+            border: 0;
+        }
+
+    #header nav {
+        height: inherit;
+        line-height: inherit;
+        position: absolute;
+        right: 0.75em;
+        top: 0;
+        vertical-align: middle;
+    }
+
+        #header nav > ul {
+            list-style: none;
+            margin: 0;
+            padding-left: 0;
+        }
+
+            #header nav > ul > li {
+                display: inline-block;
+                padding-left: 0;
+            }
+
+                #header nav > ul > li > ul {
+                    display: none;
+                }
+
+                #header nav > ul > li a {
+                    display: inline-block;
+                    height: 2em;
+                    line-height: 1.95em;
+                    padding: 0 1em;
+                    border-radius: 6px;
+                }
+
+                #header nav > ul > li a:not(.button) {
+                    color: #fff;
+                    display: inline-block;
+                    text-decoration: none;
+                    border: 0;
+                }
+
+                    #header nav > ul > li a:not(.button).icon:before {
+                        color: #999;
+                        margin-right: 0.5em;
+                    }
+
+                #header nav > ul > li:first-child {
+                    margin-left: 0;
+                }
+
+                #header nav > ul > li.active a:not(.button) {
+                    background-color: rgba(153, 153, 153, 0.25);
+                }
+
+                #header nav > ul > li .button {
+                    margin: 0 0 0 0.5em;
+                    position: relative;
+                }
